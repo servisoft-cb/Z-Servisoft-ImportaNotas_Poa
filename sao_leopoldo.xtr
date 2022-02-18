@@ -1,0 +1,406 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="ISO-8859-1"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\EnviarLoteRpsEnvio"><Select dest="@ns2" from="@xmlns:ns2"/><Select dest="@NumeroLote" from="\LoteRps\NumeroLote"/><Select dest="@Cnpj1" from="\LoteRps\Cnpj"/><Select dest="@QuantidadeRps" from="\LoteRps\QuantidadeRps"/><Select dest="@Serie" from="\LoteRps\ListaRps\Rps\InfRps\IdentificacaoRps\Serie"/><Select dest="@Tipo" from="\LoteRps\ListaRps\Rps\InfRps\IdentificacaoRps\Tipo"/><Select dest="@DataEmissao" from="\LoteRps\ListaRps\Rps\InfRps\DataEmissao"/><Select dest="@NaturezaOperacao" from="\LoteRps\ListaRps\Rps\InfRps\NaturezaOperacao"/><Select dest="@RegimeEspecialTributacao" from="\LoteRps\ListaRps\Rps\InfRps\RegimeEspecialTributacao"/><Select dest="@OptanteSimplesNacional" from="\LoteRps\ListaRps\Rps\InfRps\OptanteSimplesNacional"/><Select dest="@IncentivadorCultural" from="\LoteRps\ListaRps\Rps\InfRps\IncentivadorCultural"/><Select dest="@Status" from="\LoteRps\ListaRps\Rps\InfRps\Status"/><Select dest="@ValorServicos" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorServicos"/><Select dest="@ValorDeducoes" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorDeducoes"/><Select dest="@ValorPis" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorPis"/><Select dest="@ValorCofins" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorCofins"/><Select dest="@ValorInss" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorInss"/><Select dest="@ValorIr" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorIr"/><Select dest="@ValorCsll" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorCsll"/><Select dest="@IssRetido" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\IssRetido"/><Select dest="@ValorIss" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorIss"/><Select dest="@ValorIssRetido" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorIssRetido"/><Select dest="@OutrasRetencoes" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\OutrasRetencoes"/><Select dest="@BaseCalculo" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\BaseCalculo"/><Select dest="@Aliquota" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\Aliquota"/><Select dest="@ValorLiquidoNfse" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\ValorLiquidoNfse"/><Select dest="@DescontoIncondicionado" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\DescontoIncondicionado"/><Select dest="@DescontoCondicionado" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Valores\DescontoCondicionado"/><Select dest="@ItemListaServico" from="\LoteRps\ListaRps\Rps\InfRps\Servico\ItemListaServico"/><Select dest="@CodigoCnae" from="\LoteRps\ListaRps\Rps\InfRps\Servico\CodigoCnae"/><Select dest="@Discriminacao" from="\LoteRps\ListaRps\Rps\InfRps\Servico\Discriminacao"/><Select dest="@CodigoMunicipio1" from="\LoteRps\ListaRps\Rps\InfRps\Servico\CodigoMunicipio"/><Select dest="@Cnpj2" from="\LoteRps\ListaRps\Rps\InfRps\Prestador\Cnpj"/><Select dest="@Cnpj3" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\IdentificacaoTomador\CpfCnpj\Cnpj"/><Select dest="@InscricaoMunicipal" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\IdentificacaoTomador\InscricaoMunicipal"/><Select dest="@RazaoSocial" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\RazaoSocial"/><Select dest="@Numero1" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\Numero"/><Select dest="@Complemento1" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\Complemento"/><Select dest="@Bairro1" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\Bairro"/><Select dest="@CodigoMunicipio2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\CodigoMunicipio"/><Select dest="@Uf1" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\Uf"/><Select dest="@Cep1" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Endereco\Cep"/><Select dest="@Numero2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Numero"/><Select dest="@Complemento2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Complemento"/><Select dest="@Bairro2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Bairro"/><Select dest="@CodigoMunicipio3" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\CodigoMunicipio"/><Select dest="@Uf2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Uf"/><Select dest="@Cep2" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Endereco\Cep"/><Select dest="@Telefone" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Contato\Telefone"/><Select dest="@Email" from="\LoteRps\ListaRps\Rps\InfRps\Tomador\Contato\Email"/><Select dest="@Cnpj4" from="\LoteRps\ListaRps\Rps\InfRps\IntermediarioServico\CpfCnpj\Cnpj"/><Select dest="@ContrucaoCivil" from="\LoteRps\ListaRps\Rps\InfRps\ContrucaoCivil"/><Select dest="@Algorithm1" from="\Signature\SignedInfo\CanonicalizationMethod@Algorithm"/><Select dest="@SignatureMethod_Algorithm" from="\Signature\SignedInfo\SignatureMethod@Algorithm"/><Select dest="@URI" from="\Signature\SignedInfo\Reference@URI"/><Select dest="@Algorithm2" from="\Signature\SignedInfo\Reference\Transforms\Transform@Algorithm"/><Select dest="@Algorithm3" from="\Signature\SignedInfo\Reference\DigestMethod@Algorithm"/><Select dest="@DigestValue" from="\Signature\SignedInfo\Reference\DigestValue"/><Select dest="@SignatureValue" from="\Signature\SignatureValue"/><Select dest="@X509SubjectName" from="\Signature\KeyInfo\X509Data\X509SubjectName"/><Select dest="@X509Certificate" from="\Signature\KeyInfo\X509Data\X509Certificate"/></SelectEach></Transform><XmlSchema RootName="EnviarLoteRpsEnvio"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="EnviarLoteRpsEnvio" type="EnviarLoteRpsEnvioType"/>
+  <xs:complexType name="EnviarLoteRpsEnvioType">
+    <xs:sequence>
+      <xs:element name="LoteRps" type="LoteRpsType"/>
+      <xs:element name="Signature" type="SignatureType"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns" type="xs:string"/>
+    <xs:attribute name="xmlns:ns2" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="LoteRps" type="LoteRpsType"/>
+  <xs:complexType name="LoteRpsType">
+    <xs:sequence>
+      <xs:element name="NumeroLote" type="NumeroLoteType"/>
+      <xs:element name="Cnpj" type="CnpjType"/>
+      <xs:element name="QuantidadeRps" type="QuantidadeRpsType"/>
+      <xs:element name="ListaRps" type="ListaRpsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NumeroLote" type="NumeroLoteType"/>
+  <xs:simpleType name="NumeroLoteType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Cnpj" type="CnpjType"/>
+  <xs:simpleType name="CnpjType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="QuantidadeRps" type="QuantidadeRpsType"/>
+  <xs:simpleType name="QuantidadeRpsType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ListaRps" type="ListaRpsType"/>
+  <xs:complexType name="ListaRpsType">
+    <xs:sequence>
+      <xs:element name="Rps" type="RpsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Rps" type="RpsType"/>
+  <xs:complexType name="RpsType">
+    <xs:sequence>
+      <xs:element name="InfRps" type="InfRpsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InfRps" type="InfRpsType"/>
+  <xs:complexType name="InfRpsType">
+    <xs:sequence>
+      <xs:element name="IdentificacaoRps" type="IdentificacaoRpsType"/>
+      <xs:element name="DataEmissao" type="DataEmissaoType"/>
+      <xs:element name="NaturezaOperacao" type="NaturezaOperacaoType"/>
+      <xs:element name="RegimeEspecialTributacao" type="RegimeEspecialTributacaoType"/>
+      <xs:element name="OptanteSimplesNacional" type="OptanteSimplesNacionalType"/>
+      <xs:element name="IncentivadorCultural" type="IncentivadorCulturalType"/>
+      <xs:element name="Status" type="StatusType"/>
+      <xs:element name="Servico" type="ServicoType"/>
+      <xs:element name="Prestador" type="PrestadorType"/>
+      <xs:element name="Tomador" type="TomadorType"/>
+      <xs:element name="IntermediarioServico" type="IntermediarioServicoType"/>
+      <xs:element name="ContrucaoCivil" type="ContrucaoCivilType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IdentificacaoRps" type="IdentificacaoRpsType"/>
+  <xs:complexType name="IdentificacaoRpsType">
+    <xs:sequence>
+      <xs:element name="Serie" type="SerieType"/>
+      <xs:element name="Tipo" type="TipoType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Serie" type="SerieType"/>
+  <xs:simpleType name="SerieType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Tipo" type="TipoType"/>
+  <xs:simpleType name="TipoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="DataEmissao" type="DataEmissaoType"/>
+  <xs:simpleType name="DataEmissaoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="NaturezaOperacao" type="NaturezaOperacaoType"/>
+  <xs:simpleType name="NaturezaOperacaoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="RegimeEspecialTributacao" type="RegimeEspecialTributacaoType"/>
+  <xs:simpleType name="RegimeEspecialTributacaoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="OptanteSimplesNacional" type="OptanteSimplesNacionalType"/>
+  <xs:simpleType name="OptanteSimplesNacionalType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IncentivadorCultural" type="IncentivadorCulturalType"/>
+  <xs:simpleType name="IncentivadorCulturalType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Status" type="StatusType"/>
+  <xs:simpleType name="StatusType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Servico" type="ServicoType"/>
+  <xs:complexType name="ServicoType">
+    <xs:sequence>
+      <xs:element name="Valores" type="ValoresType"/>
+      <xs:element name="ItemListaServico" type="ItemListaServicoType"/>
+      <xs:element name="CodigoCnae" type="CodigoCnaeType"/>
+      <xs:element name="Discriminacao" type="DiscriminacaoType"/>
+      <xs:element name="CodigoMunicipio" type="CodigoMunicipioType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Valores" type="ValoresType"/>
+  <xs:complexType name="ValoresType">
+    <xs:sequence>
+      <xs:element name="ValorServicos" type="ValorServicosType"/>
+      <xs:element name="ValorDeducoes" type="ValorDeducoesType"/>
+      <xs:element name="ValorPis" type="ValorPisType"/>
+      <xs:element name="ValorCofins" type="ValorCofinsType"/>
+      <xs:element name="ValorInss" type="ValorInssType"/>
+      <xs:element name="ValorIr" type="ValorIrType"/>
+      <xs:element name="ValorCsll" type="ValorCsllType"/>
+      <xs:element name="IssRetido" type="IssRetidoType"/>
+      <xs:element name="ValorIss" type="ValorIssType"/>
+      <xs:element name="ValorIssRetido" type="ValorIssRetidoType"/>
+      <xs:element name="OutrasRetencoes" type="OutrasRetencoesType"/>
+      <xs:element name="BaseCalculo" type="BaseCalculoType"/>
+      <xs:element name="Aliquota" type="AliquotaType"/>
+      <xs:element name="ValorLiquidoNfse" type="ValorLiquidoNfseType"/>
+      <xs:element name="DescontoIncondicionado" type="DescontoIncondicionadoType"/>
+      <xs:element name="DescontoCondicionado" type="DescontoCondicionadoType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValorServicos" type="ValorServicosType"/>
+  <xs:simpleType name="ValorServicosType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorDeducoes" type="ValorDeducoesType"/>
+  <xs:simpleType name="ValorDeducoesType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorPis" type="ValorPisType"/>
+  <xs:simpleType name="ValorPisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorCofins" type="ValorCofinsType"/>
+  <xs:simpleType name="ValorCofinsType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorInss" type="ValorInssType"/>
+  <xs:simpleType name="ValorInssType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorIr" type="ValorIrType"/>
+  <xs:simpleType name="ValorIrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorCsll" type="ValorCsllType"/>
+  <xs:simpleType name="ValorCsllType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IssRetido" type="IssRetidoType"/>
+  <xs:simpleType name="IssRetidoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorIss" type="ValorIssType"/>
+  <xs:simpleType name="ValorIssType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorIssRetido" type="ValorIssRetidoType"/>
+  <xs:simpleType name="ValorIssRetidoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="OutrasRetencoes" type="OutrasRetencoesType"/>
+  <xs:simpleType name="OutrasRetencoesType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="BaseCalculo" type="BaseCalculoType"/>
+  <xs:simpleType name="BaseCalculoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Aliquota" type="AliquotaType"/>
+  <xs:simpleType name="AliquotaType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ValorLiquidoNfse" type="ValorLiquidoNfseType"/>
+  <xs:simpleType name="ValorLiquidoNfseType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="DescontoIncondicionado" type="DescontoIncondicionadoType"/>
+  <xs:simpleType name="DescontoIncondicionadoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="DescontoCondicionado" type="DescontoCondicionadoType"/>
+  <xs:simpleType name="DescontoCondicionadoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ItemListaServico" type="ItemListaServicoType"/>
+  <xs:simpleType name="ItemListaServicoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CodigoCnae" type="CodigoCnaeType"/>
+  <xs:simpleType name="CodigoCnaeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Discriminacao" type="DiscriminacaoType"/>
+  <xs:simpleType name="DiscriminacaoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CodigoMunicipio" type="CodigoMunicipioType"/>
+  <xs:simpleType name="CodigoMunicipioType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Prestador" type="PrestadorType"/>
+  <xs:complexType name="PrestadorType">
+    <xs:sequence>
+      <xs:element name="Cnpj" type="CnpjType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cnpj" type="CnpjType"/>
+  <xs:simpleType name="CnpjType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Tomador" type="TomadorType"/>
+  <xs:complexType name="TomadorType">
+    <xs:sequence>
+      <xs:element name="IdentificacaoTomador" type="IdentificacaoTomadorType"/>
+      <xs:element name="RazaoSocial" type="RazaoSocialType"/>
+      <xs:element name="Endereco" type="EnderecoType"/>
+      <xs:element name="Contato" type="ContatoType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IdentificacaoTomador" type="IdentificacaoTomadorType"/>
+  <xs:complexType name="IdentificacaoTomadorType">
+    <xs:sequence>
+      <xs:element name="CpfCnpj" type="CpfCnpjType"/>
+      <xs:element name="InscricaoMunicipal" type="InscricaoMunicipalType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CpfCnpj" type="CpfCnpjType"/>
+  <xs:complexType name="CpfCnpjType">
+    <xs:sequence>
+      <xs:element name="Cnpj" type="CnpjType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cnpj" type="CnpjType"/>
+  <xs:simpleType name="CnpjType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="InscricaoMunicipal" type="InscricaoMunicipalType"/>
+  <xs:simpleType name="InscricaoMunicipalType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="RazaoSocial" type="RazaoSocialType"/>
+  <xs:simpleType name="RazaoSocialType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Endereco" type="EnderecoType"/>
+  <xs:complexType name="EnderecoType">
+    <xs:sequence>
+      <xs:element name="Endereco" type="EnderecoType"/>
+      <xs:element name="Numero" type="NumeroType"/>
+      <xs:element name="Complemento" type="ComplementoType"/>
+      <xs:element name="Bairro" type="BairroType"/>
+      <xs:element name="CodigoMunicipio" type="CodigoMunicipioType"/>
+      <xs:element name="Uf" type="UfType"/>
+      <xs:element name="Cep" type="CepType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Endereco" type="EnderecoType"/>
+  <xs:simpleType name="EnderecoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Numero" type="NumeroType"/>
+  <xs:simpleType name="NumeroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Complemento" type="ComplementoType"/>
+  <xs:simpleType name="ComplementoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Bairro" type="BairroType"/>
+  <xs:simpleType name="BairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CodigoMunicipio" type="CodigoMunicipioType"/>
+  <xs:simpleType name="CodigoMunicipioType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Uf" type="UfType"/>
+  <xs:simpleType name="UfType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Cep" type="CepType"/>
+  <xs:simpleType name="CepType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Contato" type="ContatoType"/>
+  <xs:complexType name="ContatoType">
+    <xs:sequence>
+      <xs:element name="Telefone" type="TelefoneType"/>
+      <xs:element name="Email" type="EmailType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Telefone" type="TelefoneType"/>
+  <xs:simpleType name="TelefoneType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Email" type="EmailType"/>
+  <xs:simpleType name="EmailType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IntermediarioServico" type="IntermediarioServicoType"/>
+  <xs:complexType name="IntermediarioServicoType">
+    <xs:sequence>
+      <xs:element name="CpfCnpj" type="CpfCnpjType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CpfCnpj" type="CpfCnpjType"/>
+  <xs:simpleType name="CpfCnpjType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="ContrucaoCivil" type="ContrucaoCivilType"/>
+  <xs:simpleType name="ContrucaoCivilType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="Signature" type="SignatureType"/>
+  <xs:complexType name="SignatureType">
+    <xs:sequence>
+      <xs:element name="SignedInfo" type="SignedInfoType"/>
+      <xs:element name="SignatureValue" type="SignatureValueType"/>
+      <xs:element name="KeyInfo" type="KeyInfoType"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="SignedInfo" type="SignedInfoType"/>
+  <xs:complexType name="SignedInfoType">
+    <xs:sequence>
+      <xs:element name="CanonicalizationMethod" type="CanonicalizationMethodType"/>
+      <xs:element name="SignatureMethod" type="SignatureMethodType"/>
+      <xs:element name="Reference" type="ReferenceType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CanonicalizationMethod" type="CanonicalizationMethodType"/>
+  <xs:complexType name="CanonicalizationMethodType">
+    <xs:sequence/>
+    <xs:attribute name="Algorithm" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="SignatureMethod" type="SignatureMethodType"/>
+  <xs:complexType name="SignatureMethodType">
+    <xs:sequence/>
+    <xs:attribute name="Algorithm" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Reference" type="ReferenceType"/>
+  <xs:complexType name="ReferenceType">
+    <xs:sequence>
+      <xs:element name="Transforms" type="TransformsType"/>
+      <xs:element name="DigestMethod" type="DigestMethodType"/>
+      <xs:element name="DigestValue" type="DigestValueType"/>
+    </xs:sequence>
+    <xs:attribute name="URI" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="Transforms" type="TransformsType"/>
+  <xs:complexType name="TransformsType">
+    <xs:sequence>
+      <xs:element name="Transform" type="TransformType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transform" type="TransformType"/>
+  <xs:complexType name="TransformType">
+    <xs:sequence/>
+    <xs:attribute name="Algorithm" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="DigestMethod" type="DigestMethodType"/>
+  <xs:complexType name="DigestMethodType">
+    <xs:sequence/>
+    <xs:attribute name="Algorithm" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="DigestValue" type="DigestValueType"/>
+  <xs:simpleType name="DigestValueType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="SignatureValue" type="SignatureValueType"/>
+  <xs:simpleType name="SignatureValueType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="KeyInfo" type="KeyInfoType"/>
+  <xs:complexType name="KeyInfoType">
+    <xs:sequence>
+      <xs:element name="X509Data" type="X509DataType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="X509Data" type="X509DataType"/>
+  <xs:complexType name="X509DataType">
+    <xs:sequence>
+      <xs:element name="X509SubjectName" type="X509SubjectNameType"/>
+      <xs:element name="X509Certificate" type="X509CertificateType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="X509SubjectName" type="X509SubjectNameType"/>
+  <xs:simpleType name="X509SubjectNameType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="X509Certificate" type="X509CertificateType"/>
+  <xs:simpleType name="X509CertificateType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="ns2" fieldtype="string" WIDTH="34"/><FIELD attrname="NumeroLote" fieldtype="string" WIDTH="6"/><FIELD attrname="Cnpj1" fieldtype="string" WIDTH="14"/><FIELD attrname="QuantidadeRps" fieldtype="string" WIDTH="1"/><FIELD attrname="Serie" fieldtype="string" WIDTH="2"/><FIELD attrname="Tipo" fieldtype="string" WIDTH="1"/><FIELD attrname="DataEmissao" fieldtype="string" WIDTH="29"/><FIELD attrname="NaturezaOperacao" fieldtype="string" WIDTH="2"/><FIELD attrname="RegimeEspecialTributacao" fieldtype="string" WIDTH="1"/><FIELD attrname="OptanteSimplesNacional" fieldtype="string" WIDTH="1"/><FIELD attrname="IncentivadorCultural" fieldtype="string" WIDTH="1"/><FIELD attrname="Status" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorServicos" fieldtype="string" WIDTH="7"/><FIELD attrname="ValorDeducoes" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorPis" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorCofins" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorInss" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIr" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorCsll" fieldtype="string" WIDTH="1"/><FIELD attrname="IssRetido" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIss" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIssRetido" fieldtype="string" WIDTH="1"/><FIELD attrname="OutrasRetencoes" fieldtype="string" WIDTH="1"/><FIELD attrname="BaseCalculo" fieldtype="string" WIDTH="7"/><FIELD attrname="Aliquota" fieldtype="string" WIDTH="4"/><FIELD attrname="ValorLiquidoNfse" fieldtype="string" WIDTH="7"/><FIELD attrname="DescontoIncondicionado" fieldtype="string" WIDTH="1"/><FIELD attrname="DescontoCondicionado" fieldtype="string" WIDTH="1"/><FIELD attrname="ItemListaServico" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoCnae" fieldtype="string" WIDTH="7"/><FIELD attrname="Discriminacao" fieldtype="string" WIDTH="17"/><FIELD attrname="CodigoMunicipio1" fieldtype="string" WIDTH="7"/><FIELD attrname="Cnpj2" fieldtype="string" WIDTH="14"/><FIELD attrname="Cnpj3" fieldtype="string" WIDTH="14"/><FIELD attrname="InscricaoMunicipal" fieldtype="string" WIDTH="32"/><FIELD attrname="RazaoSocial" fieldtype="string" WIDTH="39"/><FIELD attrname="Numero1" fieldtype="string" WIDTH="3"/><FIELD attrname="Complemento1" fieldtype="string" WIDTH="30"/><FIELD attrname="Bairro1" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoMunicipio2" fieldtype="string" WIDTH="7"/><FIELD attrname="Uf1" fieldtype="string" WIDTH="2"/><FIELD attrname="Cep1" fieldtype="string" WIDTH="8"/><FIELD attrname="Numero2" fieldtype="string" WIDTH="3"/><FIELD attrname="Complemento2" fieldtype="string" WIDTH="30"/><FIELD attrname="Bairro2" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoMunicipio3" fieldtype="string" WIDTH="7"/><FIELD attrname="Uf2" fieldtype="string" WIDTH="2"/><FIELD attrname="Cep2" fieldtype="string" WIDTH="8"/><FIELD attrname="Telefone" fieldtype="string" WIDTH="10"/><FIELD attrname="Email" fieldtype="string" WIDTH="14"/><FIELD attrname="Cnpj4" fieldtype="string" WIDTH="14"/><FIELD attrname="ContrucaoCivil" fieldtype="string" WIDTH="32"/><FIELD attrname="Algorithm1" fieldtype="string" WIDTH="47"/><FIELD attrname="SignatureMethod_Algorithm" fieldtype="string" WIDTH="47"/><FIELD attrname="URI" fieldtype="string" WIDTH="32"/><FIELD attrname="Algorithm2" fieldtype="string" WIDTH="47"/><FIELD attrname="Algorithm3" fieldtype="string" WIDTH="47"/><FIELD attrname="DigestValue" fieldtype="string" WIDTH="28"/><FIELD attrname="SignatureValue" fieldtype="bin.hex" SUBTYPE="Text"/><FIELD attrname="X509SubjectName" fieldtype="string" WIDTH="161"/><FIELD attrname="X509Certificate" fieldtype="bin.hex" SUBTYPE="Text"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="ns2" fieldtype="string" WIDTH="34"/><FIELD attrname="NumeroLote" fieldtype="string" WIDTH="6"/><FIELD attrname="Cnpj1" fieldtype="string" WIDTH="14"/><FIELD attrname="QuantidadeRps" fieldtype="string" WIDTH="1"/><FIELD attrname="Serie" fieldtype="string" WIDTH="2"/><FIELD attrname="Tipo" fieldtype="string" WIDTH="1"/><FIELD attrname="DataEmissao" fieldtype="string" WIDTH="29"/><FIELD attrname="NaturezaOperacao" fieldtype="string" WIDTH="2"/><FIELD attrname="RegimeEspecialTributacao" fieldtype="string" WIDTH="1"/><FIELD attrname="OptanteSimplesNacional" fieldtype="string" WIDTH="1"/><FIELD attrname="IncentivadorCultural" fieldtype="string" WIDTH="1"/><FIELD attrname="Status" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorServicos" fieldtype="string" WIDTH="7"/><FIELD attrname="ValorDeducoes" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorPis" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorCofins" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorInss" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIr" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorCsll" fieldtype="string" WIDTH="1"/><FIELD attrname="IssRetido" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIss" fieldtype="string" WIDTH="1"/><FIELD attrname="ValorIssRetido" fieldtype="string" WIDTH="1"/><FIELD attrname="OutrasRetencoes" fieldtype="string" WIDTH="1"/><FIELD attrname="BaseCalculo" fieldtype="string" WIDTH="7"/><FIELD attrname="Aliquota" fieldtype="string" WIDTH="4"/><FIELD attrname="ValorLiquidoNfse" fieldtype="string" WIDTH="7"/><FIELD attrname="DescontoIncondicionado" fieldtype="string" WIDTH="1"/><FIELD attrname="DescontoCondicionado" fieldtype="string" WIDTH="1"/><FIELD attrname="ItemListaServico" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoCnae" fieldtype="string" WIDTH="7"/><FIELD attrname="Discriminacao" fieldtype="string" WIDTH="17"/><FIELD attrname="CodigoMunicipio1" fieldtype="string" WIDTH="7"/><FIELD attrname="Cnpj2" fieldtype="string" WIDTH="14"/><FIELD attrname="Cnpj3" fieldtype="string" WIDTH="14"/><FIELD attrname="InscricaoMunicipal" fieldtype="string" WIDTH="32"/><FIELD attrname="RazaoSocial" fieldtype="string" WIDTH="39"/><FIELD attrname="Numero1" fieldtype="string" WIDTH="3"/><FIELD attrname="Complemento1" fieldtype="string" WIDTH="30"/><FIELD attrname="Bairro1" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoMunicipio2" fieldtype="string" WIDTH="7"/><FIELD attrname="Uf1" fieldtype="string" WIDTH="2"/><FIELD attrname="Cep1" fieldtype="string" WIDTH="8"/><FIELD attrname="Numero2" fieldtype="string" WIDTH="3"/><FIELD attrname="Complemento2" fieldtype="string" WIDTH="30"/><FIELD attrname="Bairro2" fieldtype="string" WIDTH="3"/><FIELD attrname="CodigoMunicipio3" fieldtype="string" WIDTH="7"/><FIELD attrname="Uf2" fieldtype="string" WIDTH="2"/><FIELD attrname="Cep2" fieldtype="string" WIDTH="8"/><FIELD attrname="Telefone" fieldtype="string" WIDTH="10"/><FIELD attrname="Email" fieldtype="string" WIDTH="14"/><FIELD attrname="Cnpj4" fieldtype="string" WIDTH="14"/><FIELD attrname="ContrucaoCivil" fieldtype="string" WIDTH="32"/><FIELD attrname="Algorithm1" fieldtype="string" WIDTH="47"/><FIELD attrname="SignatureMethod_Algorithm" fieldtype="string" WIDTH="47"/><FIELD attrname="URI" fieldtype="string" WIDTH="32"/><FIELD attrname="Algorithm2" fieldtype="string" WIDTH="47"/><FIELD attrname="Algorithm3" fieldtype="string" WIDTH="47"/><FIELD attrname="DigestValue" fieldtype="string" WIDTH="28"/><FIELD attrname="SignatureValue" fieldtype="bin.hex" SUBTYPE="Text"/><FIELD attrname="X509SubjectName" fieldtype="string" WIDTH="161"/><FIELD attrname="X509Certificate" fieldtype="bin.hex" SUBTYPE="Text"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

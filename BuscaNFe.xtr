@@ -1,0 +1,94 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\retConsReciNFe\protNFe\infProt"><Select dest="@dhRecbto" from="\dhRecbto"/><Select dest="@nProt" from="\nProt"/><Select dest="@cStat" from="\cStat"/><Select dest="@xMotivo" from="\xMotivo"/></SelectEach></Transform><XmlSchema RootName="retConsReciNFe"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="retConsReciNFe" type="retConsReciNFeType"/>
+  <xs:complexType name="retConsReciNFeType">
+    <xs:sequence>
+      <xs:element name="tpAmb" type="tpAmbType"/>
+      <xs:element name="verAplic" type="verAplicType"/>
+      <xs:element name="nRec" type="nRecType"/>
+      <xs:element name="cStat" type="cStatType"/>
+      <xs:element name="xMotivo" type="xMotivoType"/>
+      <xs:element name="cUF" type="cUFType"/>
+      <xs:element name="protNFe" type="protNFeType"/>
+    </xs:sequence>
+    <xs:attribute name="versao" type="xs:string"/>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="tpAmb" type="tpAmbType"/>
+  <xs:simpleType name="tpAmbType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="verAplic" type="verAplicType"/>
+  <xs:simpleType name="verAplicType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nRec" type="nRecType"/>
+  <xs:simpleType name="nRecType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cStat" type="cStatType"/>
+  <xs:simpleType name="cStatType">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:element name="xMotivo" type="xMotivoType"/>
+  <xs:simpleType name="xMotivoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cUF" type="cUFType"/>
+  <xs:simpleType name="cUFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="protNFe" type="protNFeType"/>
+  <xs:complexType name="protNFeType">
+    <xs:sequence>
+      <xs:element name="infProt" type="infProtType"/>
+    </xs:sequence>
+    <xs:attribute name="versao" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="infProt" type="infProtType"/>
+  <xs:complexType name="infProtType">
+    <xs:sequence>
+      <xs:element name="tpAmb" type="tpAmbType"/>
+      <xs:element name="verAplic" type="verAplicType"/>
+      <xs:element name="chNFe" type="chNFeType"/>
+      <xs:element name="dhRecbto" type="dhRecbtoType"/>
+      <xs:element name="nProt" type="nProtType"/>
+      <xs:element name="digVal" type="digValType"/>
+      <xs:element name="cStat" type="cStatType"/>
+      <xs:element name="xMotivo" type="xMotivoType"/>
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="tpAmb" type="tpAmbType"/>
+  <xs:simpleType name="tpAmbType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="verAplic" type="verAplicType"/>
+  <xs:simpleType name="verAplicType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="chNFe" type="chNFeType"/>
+  <xs:simpleType name="chNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dhRecbto" type="dhRecbtoType"/>
+  <xs:simpleType name="dhRecbtoType">
+    <xs:restriction base="xs:timeInstant"/>
+  </xs:simpleType>
+  <xs:element name="nProt" type="nProtType"/>
+  <xs:simpleType name="nProtType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="digVal" type="digValType"/>
+  <xs:simpleType name="digValType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cStat" type="cStatType"/>
+  <xs:simpleType name="cStatType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMotivo" type="xMotivoType"/>
+  <xs:simpleType name="xMotivoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="dhRecbto" fieldtype="dateTime"/><FIELD attrname="nProt" fieldtype="string" WIDTH="15"/><FIELD attrname="cStat" fieldtype="i4"/><FIELD attrname="xMotivo" fieldtype="string" WIDTH="60"/></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="dhRecbto" fieldtype="dateTime"/><FIELD attrname="nProt" fieldtype="string" WIDTH="15"/><FIELD attrname="cStat" fieldtype="i4"/><FIELD attrname="xMotivo" fieldtype="string" WIDTH="60"/></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>
